@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score"> 
+                    <span id="numh"> 0 </span>
+                </div>
+                <div id="increment">
+                    <button onclick="addScoreH(1)"> +1 </button>
+                    <button onclick="addScoreH(2)"> +2 </button>
+                    <button onclick="addScoreH(3)"> +3 </button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score"> 
+                    <span id="numg"> 0 </span>
+                </div>
+                <div id="increment">
+                    <button onclick="addScoreG(1)"> +1 </button>
+                    <button onclick="addScoreG(2)"> +2 </button>
+                    <button onclick="addScoreG(3)"> +3 </button>
+                </div>
+            </div>
+        </div>
+        <div class="newgame"> 
+            <button onclick="newGame()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

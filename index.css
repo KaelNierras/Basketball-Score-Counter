@@ -1,0 +1,88 @@
+body {
+    font-family: 'Verdana';
+    background-image: url("basketball.jpg");
+    background-size:cover;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 240px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 11px 11px 0px 0px;
+  
+}
+
+.score {
+    background-color: black;
+    width: 130px;
+    height: 90px;
+
+}
+
+h3 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#increment {
+    margin-top: 10px;
+    
+}
+
+#increment > button {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #9AABD8;
+    background: transparent;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.score > span{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-size: 90px;
+    line-height: 110px;
+    color: #F94F6D;
+}
+
+.newgame{
+    display: flex;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F94F6D;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 0px 0px 11px 11px;
+
+}
+
+.newgame > button{
+    display: flex;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:white;
+}
